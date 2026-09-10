@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Pavit Agrawal",
-  title: "AI Engineer • Data Scientist • Product Builder",
-  headline: "Building intelligent agentic systems, Hybrid GraphRAG architectures, & production ML pipelines.",
+  title: "Software Engineer • Data & Analytics • Applied AI",
+  headline: "Building reliable software, data products, and AI-enabled systems.",
   location: "Delhi NCR, India",
   phone: "+91 9560075025",
   email: "pavitagrawal@gmail.com",
@@ -118,6 +118,33 @@ export const featuredProjects = [
 
 export const allProjects = [
   ...featuredProjects,
+  {
+    id: "credit-data-eda",
+    title: "Credit Data EDA & Financial Analytics Pipeline",
+    category: "Data Analytics",
+    badges: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+    period: "2025",
+    github: "https://github.com/pavitagrawal/credit-data-eda",
+    oneLiner: "Exploratory analysis of credit and financial datasets, with trend analysis, anomaly detection, and stakeholder-ready dashboards."
+  },
+  {
+    id: "heart-failure-prediction",
+    title: "Heart Failure Mortality Prediction",
+    category: "Machine Learning",
+    badges: ["Python", "Scikit-learn", "Statistical Modeling", "ROC-AUC"],
+    period: "2025",
+    github: "https://github.com/pavitagrawal/heart-failure-prediction",
+    oneLiner: "Machine-learning models for clinical mortality-risk prediction using feature selection, cross-validation, and interpretable performance analysis."
+  },
+  {
+    id: "hate-speech-detection",
+    title: "Hate Speech Detection NLP System",
+    category: "Data Science & NLP",
+    badges: ["Python", "NLP", "TF-IDF", "Scikit-learn"],
+    period: "2025",
+    github: "https://github.com/pavitagrawal/hate-speech-detection",
+    oneLiner: "Text-classification system for toxic-content detection using NLP preprocessing, feature engineering, ensemble models, and evaluation metrics."
+  },
   {
     id: "daedalus",
     title: "Daedalus: AI Career Navigator",

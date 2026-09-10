@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, Moon, Sun, X } from 'lucide-react';
-const pages = [['/','Home'],['/projects','Projects'],['/experience','Experience'],['/achievements','Achievements'],['/resume','Resume']];
+const pages = [['/','Home'],['/projects','Projects'],['/experience','Experience'],['/achievements','Achievements'],['/resume','Resume'],['/opportunities','Recruiters']];
 export default function Header({ theme, toggleTheme, path, navigate }) {
   const [open, setOpen] = useState(false);
   const go = (to) => { navigate(to); setOpen(false); };
