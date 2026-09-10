@@ -18,6 +18,14 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <a
+              href={personalInfo.portfolio}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-500 hover:text-[#e25822] dark:text-slate-400 dark:hover:text-[#e25822] transition-colors text-xs font-semibold"
+            >
+              Live site
+            </a>
+            <a
               href={personalInfo.github}
               target="_blank"
               rel="noopener noreferrer"

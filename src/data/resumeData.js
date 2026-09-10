@@ -7,6 +7,7 @@ export const personalInfo = {
   email: "pavitagrawal@gmail.com",
   github: "https://github.com/pavitagrawal",
   linkedin: "https://www.linkedin.com/in/pavit-agrawal-736572283",
+  portfolio: "https://pavit-portfolio.vercel.app/",
   resumePdf: "/documents/Pavit_Agrawal_CV.pdf",
   education: {
     institution: "Manipal Institute of Technology, Manipal, Karnataka",
