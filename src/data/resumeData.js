@@ -3,7 +3,6 @@ export const personalInfo = {
   title: "Software Engineer • Data & Analytics • Applied AI",
   headline: "Building reliable software, data products, and AI-enabled systems.",
   location: "Delhi NCR, India",
-  phone: "+91 9560075025",
   email: "pavitagrawal@gmail.com",
   github: "https://github.com/pavitagrawal",
   linkedin: "https://www.linkedin.com/in/pavit-agrawal-736572283",
